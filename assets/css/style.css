@@ -321,3 +321,5 @@ a:hover { text-decoration: underline; }
 .site-footer-owner { display: block; font-weight: bold; }
 
 .site-footer-credits { color: #819198; }
+
+.main-content p { margin-bottom: 1em; text-align: justify; }
