@@ -6,15 +6,15 @@
     <meta charset="UTF-8">
 
 <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>WWW 2019 Tutorial on Online User Engagement | Metrics and Optimization</title>
+<title>KDD 2020 Tutorial on Online User Engagement | Metrics and Optimization</title>
 <meta name="generator" content="Jekyll v3.7.4" />
-<meta property="og:title" content="WWW 2019 Tutorial on Online User Engagement" />
+<meta property="og:title" content="KDD 2020 Tutorial on Online User Engagement" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Metrics and Optimization" />
 <meta property="og:description" content="Metrics and Optimization" />
-<meta property="og:site_name" content="WWW 2019 Tutorial on Online User Engagement" />
+<meta property="og:site_name" content="KDD 2020 Tutorial on Online User Engagement" />
 <script type="application/ld+json">
-{"headline":"WWW 2019 Tutorial on Online User Engagement","url":"/","name":"WWW 2019 Tutorial on Online User Engagement","description":"Metrics and Optimization","@type":"WebSite","@context":"http://schema.org"}</script>
+{"headline":"KDD 2020 Tutorial on Online User Engagement","description":"Metrics and Optimization","@type":"WebSite","url":"/","name":"KDD 2020 Tutorial on Online User Engagement","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,19 +26,24 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">WWW 2019 Tutorial on Online User Engagement</h1>
+      <h1 class="project-name">KDD 2020 Tutorial on Online User Engagement</h1>
       <h2 class="project-tagline">Metrics and Optimization</h2>
     </header>
 
     <main id="content" class="main-content" role="main">
-      <p>Weclome to <strong>WWW 2019 Tutorial on Online User Engagement: Metrics and Optimization</strong>.</p>
+      <p>Weclome to <strong>KDD 2020 Tutorial on Online User Engagement: Metrics and Optimization</strong>.</p>
 
 <ul>
-  <li><strong>Date</strong>: May 14th, 9:00AM - 12:30AM</li>
-  <li><strong>Location</strong>: Room Waterfront D, Hyatt Regency San Francisco Hotel, San Francisco</li>
+  <li><strong>Date</strong>:</li>
+  <li><strong>Location</strong>:</li>
 </ul>
 
-<p>See all other <a href="https://www2019.thewebconf.org/tutorials">WWW 2019 Tutorials</a>.</p>
+<p>You could also check out previous editions of similar tutorials:</p>
+<ul>
+  <li><a href="www2019"><strong>WWW 2019 Tutorial on Online User Engagement: Metrics and Optimizaiton</strong></a></li>
+  <li><a href="https://www.hongliangjie.com/talks/WSDM_2018_Tutorial.pdf"><strong>WSDM 2018 Tutorial on Metrics of User Engagement</strong></a></li>
+  <li><a href="http://www.dcs.gla.ac.uk/~mounia/Papers/WWWTutorial2013UserEngagement.pdf"><strong>WWW 2013 Tutorial on Measuring User Engagement</strong></a></li>
+</ul>
 
 <h1 id="motivation">Motivation</h1>
 
@@ -46,7 +51,7 @@
 
 <p>User engagement is a multifaceted, complex phenomenon, and as such has given rise to a number of approaches for its measurement. Common ways of measuring user engagement include: self-reporting, e.g., questionnaires; observational methods, e.g., desktop actions; and online analytics, which employ online behavior metrics that assess users’ depth of engagement. These approaches represent various trade-offs between the scale of data analyzed and the depth of understanding. In this tutorial, we focus on the later, large-scale online analytics. Within this approach, the most common way that engagement is measured is through various proxy measures of user engagement. Standard metrics include number of page views, number of unique users, dwell time, bounce rate, click-through rate, and return rate. We will review these metrics, and discuss what they measure, their advantages and drawbacks. We will provide extensive details on the appropriateness of these metrics to various types of online services.</p>
 
-<p>Once metrics are identified and measured, it becomes a challenge to derive a mechanism to optimize them. From a machine learning perspective, two types of approaches are exploited to drive metrics, directly optimizing a metric when it can be formalized easily in a mathematical form, or indirectly through some surrogate objective functions. From an experimental design perspective, certain metrics can be easily observed and improved during a period of time of an online A/B experiment in terms of several weeks while the change of other metrics, especially long term ones, can be difficult or even never observed and improved directly through experiments. In this tutorial, we will discuss these aspects and explore new research directions.</p>
+<p>Once metrics are identified and measured, it becomes a challenge to derive a mechanism to optimize them. From a machine learning perspective, two types of approaches are exploited to drive metrics, directly optimizing a metric when it can be formalized easily in a mathematical form, or indirectly through some surrogate objective functions. In advanced forms, we optimize them in more complicated machine learning paradigms such as reinforcement learning. From an experimental design perspective, certain metrics can be easily observed and improved during a period of time of an online A/B experiment in terms of several weeks while the change of other metrics, especially long-term ones, can be difficult or even never observed and improved directly through experiments. In this tutorial, we will discuss these aspects and explore new research directions.</p>
 
 <p>Throughout the tutorial, we will use applications in areas we have extensive experiences, news, search, entertainment, and e-commerce to demonstrate how online user engagement can be measured and optimized.</p>
 
@@ -58,7 +63,7 @@
 
 <p><img src="/assets/4.jpeg" alt="Octocat" /></p>
 
-<p><a href="http://www.hongliangjie.com">Liangjie Hong</a> is Director of Engineering, Data Science and Machine Learning at Etsy Inc., managing a group of data scientists to deliver cutting-edge scientific solutions for: Search and Discovery, Personalization &amp; Recommendation and Computational Advertising. Previously, he was Senior Manager of Research at Yahoo Research, leading science efforts for Personalization and Search Sciences. Prior to Yahoo Research, he obtained his PhD in Computer Science from Lehigh University in 2013. Liangjie has given numerous technical talks at academic conferences as well as industrial meetings. He also co-founded User Engagement Optimization Workshop which has been held in conjunction with CIKM 2013 and KDD 2014.</p>
+<p><a href="http://www.hongliangjie.com">Liangjie Hong</a> is a Director of Engineering, AI at LinkedIn Inc, managing a group of applied researchers and machine learning engineers to deliver cutting-edge scientific solutions for job search and recommendation. Previously, he was a Director of Engineering at Etsy Inc. leading data science and machine learning efforts on Search and Discovery, Personalization &amp; Recommendation and Computational Advertising. Before that, he was a Senior Manager of Research at Yahoo Research, leading science efforts for Personalization and Search Sciences. Prior to Yahoo Research, he obtained his Ph.D. in Computer Science from Lehigh University in 2013. Liangjie has given numerous technical talks at academic conferences as well as industrial meetings. He also co-founded User Engagement Optimization Workshop, which has been held in conjunction with CIKM 2013 and KDD 2014.</p>
 
 <p>Liangjie has extensively published papers in optimizing user engagement in the context of personalization and recommendation systems, including designing metrics, developing machine learning methodologies as well as novel models. He has served as program committee members on all major applied machine learning and data mining conferences including KDD, WSDM, WWW, SIGIR, EMNLP and ICML.</p>
 
@@ -66,19 +71,14 @@
 
 <p><img src="/assets/0.jpeg" alt="Octocat" /></p>
 
-<p><a href="https://www.linkedin.com/in/mounialalmas/">Mounia Lalmas</a> is a Director of Research at Spotify, and the Head of Tech Research in User Engagement, where she leads an interdisciplinary team of research scientists in Boston, London,  New York and San Francisco, working on personalization and discovery. Before that, she was a Director of Research at Yahoo, where she led a team of researchers working on advertising quality for Gemini, Yahoo native advertising platform. She also worked with various teams at Yahoo on topics related to user engagement in the context of news, search, and user generated content. She also hold an Honorary Professorship at University College London. Prior to this, she held a Microsoft Research/RAEng Research Chair at the School of Computing Science, University of Glasgow. Before that, she was Professor of Information Retrieval at the Department of Computer Science at Queen Mary, University of London.</p>
+<p><a href="https://www.linkedin.com/in/mounialalmas/">Mounia Lalmas</a> is a Director of Research at Spotify, and the Head of Tech Research in Spotify’s Personalization mission, where she leads an interdisciplinary team of research scientists across Spotify’s four R\&amp;D Hubs,  Boston, London,  New York and Stokholm, working on personalization and discovery. Before that, she was a Director of Research at Yahoo, where she led a team of researchers working on advertising quality for Gemini, Yahoo native advertising platform. She also worked with various teams at Yahoo on topics related to user engagement in the context of news, search, and user generated content. She also hold an Honorary Professorship at University College London. Prior to this, she held a Microsoft Research/RAEng Research Chair at the School of Computing Science, University of Glasgow. Before that, she was Professor of Information Retrieval at the Department of Computer Science at Queen Mary, University of London.
+%She co-led the Evaluation Initiative for XML Retrieval (INEX), a large-scale project with over 80 participating organizations worldwide, which was responsible for defining the nature of XML retrieval, and how it should be evaluated.</p>
 
-<p>Since 2011, her work has focused on studying user engagement in areas such as native advertising, digital media, user generated content, search and lately in music. She has given numerous talks and tutorials on these and related topics. She is regularly a senior programme committee member at conferences such as WSDM, WWW and  SIGIR. She was co-programme chair for SIGIR 2015 and WWW 2018. She is also the co-author of a book written as the outcome of her WWW 2013 tutorial.</p>
+<p>Since 2011, her work has focused on studying user engagement in areas such as native advertising, digital media, user generated content, search and lately in music. She has given numerous talks and tutorials on these and related topics. She is regularly a senior programme committee member at conferences such as WSDM, WWW, SIGIR and KDD (Industry track). She was co-programme chair for SIGIR 2015, WWW 2018 and WSDM 2020. She is also the co-author of a book written as the outcome of her WWW 2013 tutorial.</p>
 
 <h1 id="materials">Materials</h1>
 
-<p>The online version of the <a href="https://docs.google.com/presentation/d/1s0ljiGH5kRr38w7W_2HQ50stt6W9zWgD92NQmZBLeAw/edit?usp=sharing"><strong>Slides</strong></a>. <a href="https://www.hongliangjie.com/talks/WWW2019_Tutorial.pdf">[PDF]</a></p>
-
-<p>You could also check out related tutorials:</p>
-<ul>
-  <li><a href="https://www.hongliangjie.com/talks/WSDM_2018_Tutorial.pdf"><strong>WSDM 2018 Tutorial on Metrics of User Engagement</strong></a></li>
-  <li><a href="http://www.dcs.gla.ac.uk/~mounia/Papers/WWWTutorial2013UserEngagement.pdf"><strong>WWW 2013 Tutorial on Measuring User Engagement</strong></a></li>
-</ul>
+<p>To be released.</p>
 
 
       <footer class="site-footer">
